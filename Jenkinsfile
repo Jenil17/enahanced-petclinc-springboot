@@ -8,7 +8,7 @@ pipeline {
     environment {
         IMAGE_NAME = "springboot"
         IMAGE_TAG = "latest"
-        ACR_NAME = "MyContainerRegistery1712"
+        ACR_NAME = "mycontainerregistery1712"
         ACR_LOGIN_SERVER = "${ACR_NAME}.azurecr.io"
         FULL_IMAGE_NAME = "${ACR_LOGIN_SERVER}/${IMAGE_NAME}:${IMAGE_TAG}"
         TENANT_ID = "e36985c9-aaad-40b0-b7e9-d1617ac398f6"
